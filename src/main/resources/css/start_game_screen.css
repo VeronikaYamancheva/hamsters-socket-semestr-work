@@ -1,0 +1,25 @@
+.button {
+    -fx-background-color: #ff1493;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-color: #ff69b4;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-background-color: #ff69b4;
+}
+
+.button:pressed {
+    -fx-background-color: #c71585;
+}
+
+#startGameButton {
+    -fx-alignment: center;
+}

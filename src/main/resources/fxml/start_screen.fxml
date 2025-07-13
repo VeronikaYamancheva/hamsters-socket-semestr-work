@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ru.itis.vhsroni.semestrovka.controller.impl.StartController"
+            stylesheets="@../css/init_screen.css">
+
+    <VBox alignment="CENTER" spacing="20" AnchorPane.topAnchor="50" AnchorPane.bottomAnchor="50"
+          AnchorPane.leftAnchor="50" AnchorPane.rightAnchor="50">
+        <Label text="username:"/>
+        <TextField fx:id="setUserName" prefWidth="300"/>
+        <Button fx:id="submit" text="Save" prefWidth="150"/>
+    </VBox>
+
+</AnchorPane>

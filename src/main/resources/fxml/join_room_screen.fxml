@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ru.itis.vhsroni.semestrovka.controller.impl.JoinRoomController"
+            stylesheets="@../css/init_screen.css">
+
+    <VBox alignment="CENTER" spacing="20" AnchorPane.topAnchor="50" AnchorPane.bottomAnchor="50"
+          AnchorPane.leftAnchor="50" AnchorPane.rightAnchor="50">
+        <HBox alignment="CENTER" spacing="10">
+            <Label fx:id="IpInput" text="IP:"/>
+            <TextField fx:id="setIp" prefWidth="200"/>
+        </HBox>
+        <HBox alignment="CENTER" spacing="10">
+            <Label fx:id="portInput" text="Port:"/>
+            <TextField fx:id="setPort" prefWidth="200"/>
+        </HBox>
+        <Button fx:id="submitJoin" text="Join" prefWidth="150"/>
+        <Button fx:id="backButton" text="Prev page"
+                prefWidth="400"/>
+    </VBox>
+
+
+</AnchorPane>

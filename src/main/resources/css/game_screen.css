@@ -1,0 +1,40 @@
+.root {
+    -fx-background-color: #e3add4; /* Основной цвет фона */
+}
+
+.top-panel {
+    -fx-background-color: #ff69b4; /* Цвет фона верхней панели */
+    -fx-padding: 10px; /* Отступы внутри верхней панели */
+    -fx-spacing: 20px; /* Расстояние между элементами в HBox */
+    -fx-alignment: center-left; /* Выравнивание элементов по центру слева */
+}
+
+.label-user, .label-level, .label-score, .label-room {
+    -fx-font-family: sans-serif;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff; /* Белый цвет текста */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 5, 0, 0, 0); /* Тень текста */
+}
+
+.label-room {
+    -fx-text-fill: #ffffff;
+}
+
+.label-level {
+    -fx-text-fill: #ffffff;
+}
+
+.label-score {
+    -fx-text-fill: #ffffff;
+}
+
+.canvas-pane {
+    -fx-background-color: #eec5e2; /* Цвет фона вокруг Canvas */
+    -fx-padding: 10px; /* Отступы вокруг Canvas */
+}
+
+.canvas {
+    -fx-background-color: #ffffff; /* Белый фон Canvas */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 10, 0, 0, 0); /* Тень Canvas */
+}

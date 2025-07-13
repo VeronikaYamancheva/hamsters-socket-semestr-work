@@ -1,0 +1,55 @@
+.root {
+    -fx-background-color: #e3add4;
+}
+
+.label {
+    -fx-font-family: sans-serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-stroke: #ff1493;
+    -fx-stroke-width: 5px;
+    -fx-stroke-type: outside;
+    -fx-effect: dropshadow(three-pass-box, #ff1493, 5, 0, 0, 0);
+}
+
+.text-field {
+    -fx-background-color: #eec5e2;
+    -fx-text-fill: #ff1493;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-border-color: #ff1493;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+.button {
+    -fx-background-color: #ff1493;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-border-color: #ff69b4;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-padding: 10px 20px;
+}
+
+.button:hover {
+    -fx-background-color: #ff69b4;
+}
+
+.button:pressed {
+    -fx-background-color: #c71585;
+}
+
+.vbox, .hbox {
+    -fx-background-color: transparent;
+}
+
+.anchor-pane {
+    -fx-background-color: #ff69b4;
+}
